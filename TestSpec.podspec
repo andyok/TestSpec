@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.platform     =  :ios, '<#iOS Platform#>'
   s.source       ={ :git => "https://github.com/andyok/TestSpec.git" }
 #git: 'https://github.com/andyok/TestSpec.git'
-  s.source_files = 'TestSpec/TestSpec/YSTipCustomView'
+  s.source_files = 'TestSpec/YSTipCustomView'
   s.frameworks   =  '<#Required Frameworks#>'
   s.requires_arc = true
   
