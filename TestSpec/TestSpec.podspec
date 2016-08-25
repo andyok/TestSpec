@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.summary      = '<#Summary (Up to 140 characters#>'
 
   s.platform     =  :ios, '<#iOS Platform#>'
-  s.source       =  git: 'https://github.com/andyok/TestPesc.git', :tag => s.version
+  s.source       =  git: 'https://github.com/andyok/TestPesc.git'
   s.source_files = 'YSTipCustomView'
   s.frameworks   =  '<#Required Frameworks#>'
   s.requires_arc = true
