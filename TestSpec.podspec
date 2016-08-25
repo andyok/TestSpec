@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.summary      = 'kjlj Downloads/DownSpec/DownSpec.pods'
   s.platform     =  :ios, '8.0'
   s.source       ={ :git => "https://github.com/andyok/TestSpec.git" , :tag => s.version}
-  s.source_files = 'TestSpec/YSTipCustomView'
+  s.source_files = 'TestSpec/YSTipCustomView/*'
   s.requires_arc = true
   
 # Pod Dependencies
