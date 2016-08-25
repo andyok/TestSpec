@@ -13,6 +13,8 @@
 		A1CF95611D6DAD4B007EADE5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1CF955F1D6DAD4B007EADE5 /* Main.storyboard */; };
 		A1CF95631D6DAD4B007EADE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1CF95621D6DAD4B007EADE5 /* Assets.xcassets */; };
 		A1CF95661D6DAD4B007EADE5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1CF95641D6DAD4B007EADE5 /* LaunchScreen.storyboard */; };
+		A1CF95711D6DB3BD007EADE5 /* YSTipCustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = A1CF956F1D6DB3BD007EADE5 /* YSTipCustomView.m */; };
+		A1CF95721D6DB3BD007EADE5 /* YSTipCustomView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A1CF95701D6DB3BD007EADE5 /* YSTipCustomView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,9 @@
 		A1CF95621D6DAD4B007EADE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A1CF95651D6DAD4B007EADE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A1CF95671D6DAD4B007EADE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1CF956E1D6DB3BD007EADE5 /* YSTipCustomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YSTipCustomView.h; sourceTree = "<group>"; };
+		A1CF956F1D6DB3BD007EADE5 /* YSTipCustomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YSTipCustomView.m; sourceTree = "<group>"; };
+		A1CF95701D6DB3BD007EADE5 /* YSTipCustomView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YSTipCustomView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +63,7 @@
 		A1CF95551D6DAD4B007EADE5 /* TestSpec */ = {
 			isa = PBXGroup;
 			children = (
+				A1CF956D1D6DB3BD007EADE5 /* YSTipCustomView */,
 				A1CF95591D6DAD4B007EADE5 /* AppDelegate.h */,
 				A1CF955A1D6DAD4B007EADE5 /* AppDelegate.m */,
 				A1CF955C1D6DAD4B007EADE5 /* ViewController.h */,
@@ -77,6 +83,16 @@
 				A1CF95571D6DAD4B007EADE5 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A1CF956D1D6DB3BD007EADE5 /* YSTipCustomView */ = {
+			isa = PBXGroup;
+			children = (
+				A1CF956E1D6DB3BD007EADE5 /* YSTipCustomView.h */,
+				A1CF956F1D6DB3BD007EADE5 /* YSTipCustomView.m */,
+				A1CF95701D6DB3BD007EADE5 /* YSTipCustomView.xib */,
+			);
+			path = YSTipCustomView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +155,7 @@
 				A1CF95661D6DAD4B007EADE5 /* LaunchScreen.storyboard in Resources */,
 				A1CF95631D6DAD4B007EADE5 /* Assets.xcassets in Resources */,
 				A1CF95611D6DAD4B007EADE5 /* Main.storyboard in Resources */,
+				A1CF95721D6DB3BD007EADE5 /* YSTipCustomView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -152,6 +169,7 @@
 				A1CF955E1D6DAD4B007EADE5 /* ViewController.m in Sources */,
 				A1CF955B1D6DAD4B007EADE5 /* AppDelegate.m in Sources */,
 				A1CF95581D6DAD4B007EADE5 /* main.m in Sources */,
+				A1CF95711D6DB3BD007EADE5 /* YSTipCustomView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
